@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="61">
+<modDesc descVersion="63">
     <author>DumpsterDave - defcon1gaming.com</author>
     <version>1.1.0.0</version>
     <iconFilename>icon.dds</iconFilename>
@@ -8,10 +8,11 @@
     </title>
     <description>
         <en><![CDATA[Allows Construction brushes to snap to a placement and rotation grid.  
-        
-        Grid can be adjusted between 0.5m (default), 1m, 2m, 3m, 4m, 5m, and 0m (off).
-        
-        Rotation can be adjusted between 1°, 5° (default), 11.25°, 22.5°, 45°, 90° and 0° (off)]]></en>
+Grid can be adjusted between 0.5m (default), 1m, 2m, 3m, 4m, 5m, and 0m (off).
+Rotation can be adjusted between 1°, 5° (default), 11.25°, 22.5°, 45°, 90° and 0° (off)
+
+Changelog:
+1.1.0.0: Added ability to alter the snap sizes.  Current snap size is indicated in the tool help text.]]></en>
     </description>
     
     <extraSourceFiles>
