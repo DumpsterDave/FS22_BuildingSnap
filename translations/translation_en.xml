@@ -2,6 +2,9 @@
 <l10n>
     <translationContributors>DumpsterDave</translationContributors>
     <texts>
-        <text name="BM_fieldJob_desc_harvesting" text="Harvest %d liters of &apos;%s&apos; from field %d and take the product to %s." />
+        <text name="input_BS_ADJUST_POS_SNAP" text="Adjust Grid Snap Size" />
+        <text name="input_BS_ADJUST_ROT_SNAP" text="Adjust Rotation Angle" />
+        <text name="BS_ADJUST_POS_SNAP_TEXT" text="Adjust Grid Snap Size: %sm" />
+        <text name="BS_ADJUST_ROT_SNAP_TEXT" text="Adjust Rotation Angle: %s°" />
     </texts>
 </l10n>

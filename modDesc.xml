@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="61">
     <author>DumpsterDave - defcon1gaming.com</author>
-    <version>1.0.0.0</version>
+    <version>1.1.0.0</version>
     <iconFilename>icon.dds</iconFilename>
     <title>
-        <en>Building Snap by DEFCON 1 Gaming.com</en>
+        <en>Building Snap</en>
     </title>
     <description>
-        <en>Snaps building placement to a grid</en>
+        <en><![CDATA[Allows Construction brushes to snap to a placement and rotation grid.  
+        
+        Grid can be adjusted between 0.5m (default), 1m, 2m, 3m, 4m, 5m, and 0m (off).
+        
+        Rotation can be adjusted between 1°, 5° (default), 11.25°, 22.5°, 45°, 90° and 0° (off)]]></en>
     </description>
     
     <extraSourceFiles>
@@ -17,5 +21,18 @@
     <l10n filenamePrefix="translations/translation" />
 
     <multiplayer supported="true"/>
-    
+
+    <actions>
+        <action name="BS_ADJUST_POS_SNAP" category="SYSTEM" axisType="HALF" />
+        <action name="BS_ADJUST_ROT_SNAP" category="SYSTEM" axisType="HALF" />
+    </actions>
+
+    <inputBinding>
+        <actionBinding name="BS_ADJUST_POS_SNAP">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_equals" />
+        </actionBinding>
+        <actionBinding name="BS_ADJUST_ROT_SNAP">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_minus" />
+        </actionBinding>
+    </inputBinding>
 </modDesc>
