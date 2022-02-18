@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="63">
-    <author>DumpsterDave - defcon1gaming.com</author>
-    <version>1.1.0.0</version>
+    <author>DumpsterDave</author>
+    <version>1.0.0.0</version>
     <iconFilename>icon.dds</iconFilename>
     <title>
         <en>Building Snap</en>
+        <de>Erstellen von Snap</de>
+        <fr>Création de Snap</fr>
     </title>
     <description>
         <en><![CDATA[Allows Construction brushes to snap to a placement and rotation grid.  
 Grid can be adjusted between 0.5m (default), 1m, 2m, 3m, 4m, 5m, and 0m (off).
-Rotation can be adjusted between 1°, 5° (default), 11.25°, 22.5°, 45°, 90° and 0° (off)
-
-Changelog:
-1.1.0.0: Added ability to alter the snap sizes.  Current snap size is indicated in the tool help text.]]></en>
+Rotation can be adjusted between 1°, 5° (default), 11.25°, 22.5°, 45°, 90° and 0° (off)]]></en>
+        <de><![CDATA[Ermöglicht das Einrasten von Konstruktionsbürsten an einem Platzierungs- und Rotationsraster.  
+Das Raster kann zwischen 0,5 m (Standard), 1 m, 2 m, 3 m, 4 m, 5 m und 0 m (aus) eingestellt werden.
+Drehung einstellbar zwischen 1°, 5° (Standard), 11,25°, 22,5°, 45°, 90° und 0° (aus)]]></de>
+        <fr><![CDATA[Permet aux pinceaux de construction de s’accrocher à une grille de placement et de rotation.  
+La grille peut être ajustée entre 0,5 m (par défaut), 1 m, 2 m, 3 m, 4 m, 5 m et 0 m (hors tension).
+La rotation peut être réglée entre 1°, 5° (par défaut), 11,25°, 22,5°, 45°, 90° et 0° (désactivé)]]></fr>
     </description>
     
     <extraSourceFiles>
@@ -24,16 +29,16 @@ Changelog:
     <multiplayer supported="true"/>
 
     <actions>
-        <action name="BS_ADJUST_POS_SNAP" category="SYSTEM" axisType="HALF" />
-        <action name="BS_ADJUST_ROT_SNAP" category="SYSTEM" axisType="HALF" />
+        <action name="BS_ADJUST_POS_SNAP" />
+        <action name="BS_ADJUST_ROT_SNAP" />
     </actions>
 
     <inputBinding>
-        <actionBinding name="BS_ADJUST_POS_SNAP">
-            <binding device="KB_MOUSE_DEFAULT" input="KEY_equals" />
+        <actionBinding action="BS_ADJUST_POS_SNAP">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_g" />
         </actionBinding>
-        <actionBinding name="BS_ADJUST_ROT_SNAP">
-            <binding device="KB_MOUSE_DEFAULT" input="KEY_minus" />
+        <actionBinding action="BS_ADJUST_ROT_SNAP">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_r" />
         </actionBinding>
     </inputBinding>
 </modDesc>

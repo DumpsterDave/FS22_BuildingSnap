@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>GoogleTranslate</translationContributors>
+    <texts>
+        <text name="input_BS_ADJUST_POS_SNAP" text="Ajuster la taille de l’alignement de la grille" />
+        <text name="input_BS_ADJUST_ROT_SNAP" text="Ajuster l’angle de rotation" />
+        <text name="BS_ADJUST_POS_SNAP_TEXT" text="Ajuster la taille de l’alignement de la grille: %sm" />
+        <text name="BS_ADJUST_ROT_SNAP_TEXT" text="Ajuster l’angle de rotation: %s°" />
+    </texts>
+</l10n>
