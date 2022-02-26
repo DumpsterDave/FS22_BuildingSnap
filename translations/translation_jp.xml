@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>Erix05（JapanModding）</translationContributors>
+    <texts>
+        <text name="input_BS_ADJUST_POS_SNAP" text="グリッドスナップ調整" />
+        <text name="input_BS_ADJUST_ROT_SNAP" text="回転角度調整" />
+        <text name="BS_ADJUST_POS_SNAP_TEXT" text="グリッドスナップ: %sm" />
+        <text name="BS_ADJUST_ROT_SNAP_TEXT" text="回転角度: %s°" />
+    </texts>
+</l10n>
