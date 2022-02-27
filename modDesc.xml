@@ -7,7 +7,7 @@
         <en>Building Snap</en>
         <de>Erstellen von Snap</de>
         <fr>Création de Snap</fr>
-		<jp>ビルディングスナップ</jp>
+        <jp>ビルディングスナップ</jp>
     </title>
     <description>
         <en><![CDATA[Allows Construction brushes to snap to a placement and rotation grid.  
