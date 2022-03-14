@@ -8,7 +8,7 @@
 Join us on Discord: ![Discord](https://img.shields.io/discord/229813128144093184?label=DEFCON%201%20Gaming%20Discord)
 
 ## About
-Building Snap adds grid snapping capabilities to Placeable structures in FS22.  In Construction mode, you can toggle the position snap grid size (default key =) and rotation snap angle (default key -) to fit your liking.  The grid snap can also be turned off by setting the position to 0m and/or the angle to 0°.  You can set each one individually.
+Building Snap adds grid snapping capabilities to Placeable structures in FS22.  In Construction mode, you can toggle the position snap grid size (default key G) and rotation snap angle (default key R) to fit your liking.  The grid snap can also be turned off by setting the position to 0m and/or the angle to 0°.  You can set each one individually.
 
 #### Possible Position Snap Sizes:
 - 0m (Off/Game Default)
@@ -31,8 +31,11 @@ Building Snap adds grid snapping capabilities to Placeable structures in FS22.  
 ## Translations
 Building Snap is currently available in the following languages:
 - English
+- German
+- French
+- Japanese
 
-Please get it touch with me if you would like to assis in adding addition translations
+Please get in touch with me if you would like to assist in adding additional translations
 
 ## Support
 Please use the GitHub issue tracker for reporting issues.
