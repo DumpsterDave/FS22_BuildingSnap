@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="63">
+<modDesc descVersion="64">
     <author>DumpsterDave</author>
     <version>1.0.0.0</version>
     <iconFilename>icon.dds</iconFilename>
@@ -19,6 +19,9 @@ Drehung einstellbar zwischen 1°, 5° (Standard), 11,25°, 22,5°, 45°, 90° un
         <fr><![CDATA[Permet aux pinceaux de construction de s’accrocher à une grille de placement et de rotation.  
 La grille peut être ajustée entre 0,5 m (par défaut), 1 m, 2 m, 3 m, 4 m, 5 m et 0 m (hors tension).
 La rotation peut être réglée entre 1°, 5° (par défaut), 11,25°, 22,5°, 45°, 90° et 0° (désactivé)]]></fr>
+        <jp><![CDATA[コンストラクション ブラシを配置グリッドと回転グリッドにスナップできるようにします。 
+グリッドは、0.5m(デフォルト)、1m、2m、3m、4m、5m、0m(オフ)の間で調整できます。
+回転は1°、5°(デフォルト)、11.25°、22.5°、45°、90°および0°(オフ)の間で調整することができます]]></jp>
     </description>
     
     <extraSourceFiles>
