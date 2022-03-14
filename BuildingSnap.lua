@@ -92,7 +92,13 @@ end
 function BuildingSnap:togglePosSnap()
     BuildingSnap.POS_SNAP = BuildingSnap.POS_SNAP_OPTIONS[tostring(BuildingSnap.POS_SNAP)]
     BuildingSnap.debug("Position Snap Changed to " .. BuildingSnap.POS_SNAP)
-    BuildingSnap.lastBuilding.placeable.spec_placement.positionSnapSize = BuildingSnap.POS_SNAP
+    if BuildingSnap.lastBuilding ~= nil then
+        if BuildingSnap.lastBuilding.placeable ~= nil then
+            if BuildingSnap.lastBuilding.placeable.spec_placement ~= nil then
+                BuildingSnap.lastBuilding.placeable.spec_placement.positionSnapSize = BuildingSnap.POS_SNAP
+            end
+        end
+    end
     g_inputBinding:setActionEventText(BuildingSnap.PosSnapEvent, string.format(g_i18n:getText("BS_ADJUST_POS_SNAP_TEXT"), tostring(BuildingSnap.POS_SNAP)))
     g_inputBinding:setActionEventTextVisibility(BuildingSnap.PosSnapEvent, true)
 end
@@ -100,7 +106,13 @@ end
 function BuildingSnap:toggleRotSnap()
     BuildingSnap.ROT_SNAP = BuildingSnap.ROT_SNAP_OPTIONS[tostring(BuildingSnap.ROT_SNAP)]
     BuildingSnap.debug("Rotation Snap Changed to " .. BuildingSnap.ROT_SNAP)
-    BuildingSnap.lastBuilding.placeable.spec_placement.rotationSnapAngle = math.rad(BuildingSnap.ROT_SNAP)
+    if BuildingSnap.lastBuilding ~= nil then
+        if BuildingSnap.lastBuilding.placeable ~= nil then
+            if BuildingSnap.lastBuilding.placeable.spec_placement ~= nil then
+                BuildingSnap.lastBuilding.placeable.spec_placement.rotationSnapAngle = math.rad(BuildingSnap.ROT_SNAP)
+            end
+        end
+    end
     g_inputBinding:setActionEventText(BuildingSnap.RotSnapEvent, string.format(g_i18n:getText("BS_ADJUST_ROT_SNAP_TEXT"), tostring(BuildingSnap.ROT_SNAP)))
     g_inputBinding:setActionEventTextVisibility(BuildingSnap.RotSnapEvent, true)
 end
