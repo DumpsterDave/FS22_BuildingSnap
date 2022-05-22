@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>Ziuta</translationContributors>
+    <texts>
+        <text name="input_BS_ADJUST_POS_SNAP" text="Dostosuj rozmiar przyciągania do siatki" />
+        <text name="input_BS_ADJUST_ROT_SNAP" text="Dostosuj kąt rotacji" />
+        <text name="BS_ADJUST_POS_SNAP_TEXT" text="Dostosuj rozmiar przyciągania do siatki: %sm" />
+        <text name="BS_ADJUST_ROT_SNAP_TEXT" text="Dostosuj kąt rotacji: %s°" />
+    </texts>
+</l10n>
