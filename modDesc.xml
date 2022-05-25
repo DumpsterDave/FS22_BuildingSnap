@@ -8,6 +8,7 @@
         <de>Gebäude-Rastern</de>
         <fr>Création De Snap</fr>
         <jp>ビルディングスナップ</jp>
+        <pl>Dostosowywanie budynków</pl>
     </title>
     <description>
         <en><![CDATA[Allows Construction brushes to snap to a placement and rotation grid.
@@ -22,6 +23,9 @@ La rotation peut être réglée entre 1°, 5° (par défaut), 11,25°, 22,5°, 4
         <jp><![CDATA[コンストラクション ブラシを配置グリッドと回転グリッドにスナップできるようにします。
 グリッドは、0.5m(デフォルト)、1m、2m、3m、4m、5m、0m(オフ)の間で調整できます。
 回転は1°、5°(デフォルト)、11.25°、22.5°、45°、90°および0°(オフ)の間で調整することができます]]></jp>
+        <pl><![CDATA[Umożliwia lepsze dostosowyanie pozycji i rotacji obiektów w trybie budowania.
+Siatka może być regulowana w zakresie 0,5 (domyślnie), 1, 2, 3, 4, 5 i 0m (wył.).
+Rotacja może być regulowana w zakresie 1°, 5° (domyślnie), 11.25°, 22.5°, 45°, 90° i 0° (wył.)]]></pl>
     </description>
     
     <extraSourceFiles>
